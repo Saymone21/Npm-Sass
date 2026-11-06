@@ -56,17 +56,17 @@ h2 {
 }
 
 h1 {
-  color: #0a15ee;
+  color: #14476e;
 }
 
 .carte {
   background: white;
   padding: 1rem;
-  border-radius: 0;
+  border-radius: 10px;
 }
 
 .bouton {
-  background: #0a15ee;
+  background: #14476e;
   color: white;
 }
 

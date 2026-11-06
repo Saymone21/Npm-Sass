@@ -3,9 +3,10 @@
 // TODO : déclarer les variables de la charte avant leur utilisation.
 // Le SCSS de départ est compilable. Remplacer les valeurs selon les consignes.
 
-$couleurPincipale: #0a15ee;
+$couleurPincipale: #14476e;
 $couleur2: white;
 $espacement: 1rem;
+$contour: 10px;
 
 
 h1 { color: $couleurPincipale; 
@@ -14,7 +15,7 @@ h1 { color: $couleurPincipale;
 .carte {
     background: $couleur2; 
     padding: $espacement; 
-    border-radius: 0; 
+    border-radius: $contour; 
     }
 
 .bouton { 

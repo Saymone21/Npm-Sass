@@ -7,15 +7,22 @@ $texte: #172337;
 $espace: 1rem;
 $rayon: 0.5rem;
 h1 { color: $accent; }
-.carte {
+
+
+@mixin carte{
   h2{
-    color: $accent;
-  }
-  background: white;
-  color: $texte;
-  padding: $espace * 2;
-  border-radius: $rayon;
+      color: $accent;
+    }
+    background: white;
+    color: $texte;
+    padding: $espace * 2;
+    border-radius: $rayon;
 }
+.carte {@include carte;}
+.parcours{@include carte;
+  margin-top: 1rem;
+}
+
 .bouton { 
   background: $accent; color: white; 
   &:hover {
@@ -37,6 +44,7 @@ h1 { color: $accent; }
     background: $accent-survol; color: white;
     }
   } 
+
 
 
 // TODO : imbriquer h2 et p dans .carte.
