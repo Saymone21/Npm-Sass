@@ -1,0 +1,23 @@
+@use "base";
+
+// TODO : déclarer les variables de la charte avant leur utilisation.
+// Le SCSS de départ est compilable. Remplacer les valeurs selon les consignes.
+
+$couleurPincipale: #0a15ee;
+$couleur2: white;
+$espacement: 1rem;
+
+
+h1 { color: $couleurPincipale; 
+}
+
+.carte {
+    background: $couleur2; 
+    padding: $espacement; 
+    border-radius: 0; 
+    }
+
+.bouton { 
+    background: $couleurPincipale; 
+    color: $couleur2; 
+}
