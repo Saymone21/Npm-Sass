@@ -2,7 +2,7 @@
 
 // Choix communs de la charte. Ces variables disparaissent après compilation.
 $accent: #075985;
-$accent-survol: #0c4a6e;
+$accent-survol: #98d9ff;
 $texte: #172337;
 $espace: 1rem;
 $rayon: 0.5rem;
@@ -18,17 +18,23 @@ h1 { color: $accent; }
 }
 .bouton { 
   background: $accent; color: white; 
-  &:hover, &:focus {
+  &:hover {
     background: white; color: $accent;
     border: solid 1px $accent;
     }
+  &:focus {
+    background: $accent-survol; color: white;
+  }
 }
 .boutonBlanc { 
   background: white; color: $accent; 
   border: solid 1px $accent;
   border-radius: $rayon;
-  &:hover, &:focus {
+  &:hover {
     background: $accent; color: white;
+  }
+  &:focus {
+    background: $accent-survol; color: white;
     }
   } 
 

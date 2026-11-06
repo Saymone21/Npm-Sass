@@ -73,10 +73,14 @@ h1 {
   background: #075985;
   color: white;
 }
-.bouton:hover, .bouton:focus {
+.bouton:hover {
   background: white;
   color: #075985;
   border: solid 1px #075985;
+}
+.bouton:focus {
+  background: #98d9ff;
+  color: white;
 }
 
 .boutonBlanc {
@@ -85,8 +89,12 @@ h1 {
   border: solid 1px #075985;
   border-radius: 0.5rem;
 }
-.boutonBlanc:hover, .boutonBlanc:focus {
+.boutonBlanc:hover {
   background: #075985;
+  color: white;
+}
+.boutonBlanc:focus {
+  background: #98d9ff;
   color: white;
 }
 
